@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 28px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+}
+.footer {
+    width: 960px;
+    height: 48px;
+    margin: 0 auto;
+}
+.header .logo {
+    width: 644px;
+    height: 27px;
+    background: url('img/logo.png') no-repeat 0 0;
+    float: left;
+}
+.header .logo a {
+    display: inline-block;
+    width: 130px;
+    height: 27px;
+}
+.header .links {
+    float: right;
+    width: 200px;
+    height: 27px;
+    text-align: right;
+}
+.header .links a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #ccc;
+    line-height: 27px;
+}
+.content .top {
+    width: 960px;
+    height: 38px;
+    background: url('img/1.png') repeat-x;
+}
+.content .bottom {
+    width: 960px;
+    height: 562px;
+}
+.content h1 {
+    color: white;
+    font-size: 12px;
+    line-height: 38px;
+    text-indent: 2em;
+}
+.content .bottom .article {
+    width: 642px;
+    height: 562px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 80px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.content .bottom .aside {
+    width: 318px;
+    height: 562px;
+    float: right;
+    padding-top: 105px;
+    padding-left: 45px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-top:none;
+}
+.content .bottom .article .article-top {
+    width: 560px;
+    height: 60px;
+}
+.content .bottom .article .article-bottom{
+    width: 560px;
+    height: 373px;
+}
+.content .bottom .article .article-top ul {
+    width: 412px;
+    height: 34px;
+    list-style: none;
+    background: url("img/tab.jpg") no-repeat;
+    left: 0;
+}
+.content .bottom .article .article-top ul li {
+    width: 137px;
+    height: 34px;
+    float: left;
+    line-height: 34px;
+    text-align: center;
+}
+.content .bottom .article .article-bottom .line {
+    width: 413px;
+    height: 28px;
+}
+.content .bottom .article .article-bottom .line span {
+    float: left;
+    width: 60px;
+    height: 28px;
+    font-size: 12px;line-height: 28px;
+    text-align: right;
+}
+.content .bottom .article .article-bottom .line div {
+    float: right;
+    height: 28px;
+    width: 333px;
+}
+.content .bottom .article .article-bottom .line .star{
+    color: red;
+    width: 0;
+}
+.content .bottom .article .article-bottom .line input {
+    width: 212px;
+    height: 24px;
+}
+.content .bottom .article .article-bottom .line select {
+    width: 100px;
+    height: 28px;
+}
+.content .bottom .article .article-bottom p {
+    font-size: 12px;
+    margin-left: 80px;
+    line-height: 28px;
+}
+.content .bottom .article .article-bottom .line .speciel {
+    width: 326px;
+}
+.content .bottom .article .article-bottom .line img {
+    width: 100px;
+    height: 28px;
+    float: left;
+}
+.content .bottom .article .article-bottom .line .vcodeinput {
+    float: left;
+    margin-right: 10px;
+}
+.content .bottom .article .article-bottom input[type=submit] {
+    width: 119px;
+    height: 39px;
+    background: url("glb_v2.png") no-repeat -144px -360px;
+    border: none;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.footer p{
+    font-size: 12px;
+    color: #cccccc;
+    text-align: center;
+    line-height: 48px;
+}
