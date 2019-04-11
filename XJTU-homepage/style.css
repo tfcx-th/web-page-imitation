@@ -1,0 +1,197 @@
+body {
+	font-family: 					Microsoft Yahei;
+	background-image: 				url(images/beijing.jpg);
+	background-repeat: 				repeat;
+	margin: 						0px;
+}
+
+a, ul {
+	margin: 						0px;
+	padding: 						0px;
+	text-decoration: 				none;
+	color: 							white;
+}
+
+div {
+	margin: 						0px;
+	padding: 						0px;
+    border: 						0;
+    font-size: 						100%;
+    font-family: 					"Microsoft YaHei";
+    text-decoration:			 	none;
+    list-style-type: 				none;
+    font-weight: 					normal;
+    vertical-align: 				baseline;
+    -webkit-font-smoothing: 		antialiased;
+}
+
+#top {
+	background-color: 				#032950;
+	border-bottom-width: 			1px;
+	border-bottom-style: 			solid;
+	border-bottom-color: 			#216493;
+	text-align: 					right;
+	height: 						32px;
+}
+
+#top #toplink {
+	width: 							1140px;
+	padding-right: 					60px;
+	margin-left: 					auto;
+	margin-right: 					auto;
+}
+
+#top #toplink a {
+	font-size: 						12px;
+	line-height: 					12px;
+	color: 							white;
+}
+
+#top #toplink span {
+	color: 							white;
+	line-height: 					32px;
+	padding-left: 					10px;
+	padding-right: 					10px;
+}
+
+#header {
+	background-color: 				#11406c;
+	height: 						140px;
+}
+
+#header #logo {
+	width: 							340px;
+	height: 						100px;
+	float: 							left;
+	padding-left: 					20px;
+	padding-top: 					10px;
+}
+
+#search {
+	float: 							right;
+	color: 							white;
+	line-height: 					45px;
+	width: 							400px;
+}
+
+#header #search a {
+	color: 							white;
+	font-size: 						14px;
+	padding-left: 					6px;
+	padding-right: 					6px;
+}
+
+#menu {
+	color: 							white;
+	font-size: 						14px;
+	width: 							100%;
+	height: 						28px;
+	line-height: 					28px;
+	margin-left: 					140px;
+}
+
+#menu ul {
+	padding: 						0px;
+	margin: 						0px;
+	list-style-type: 				none;
+}
+
+#menu ul li {
+	position: 						relative;
+	display: 						inline;
+	float: 							left !important;
+}
+
+#menu ul li a {
+	color: 							white;
+	font-size: 						14px;
+	padding: 						0px 15px;
+	display: 						block;
+}
+
+#Picnews {
+	height: 						320px;
+}
+
+.con {
+	width: 							1200px;
+	margin-right: 					auto;
+	margin-left: 					auto;
+}
+
+#guidebar {
+	border-bottom-width: 			2px;
+    border-bottom-style: 			solid;
+    border-bottom-color: 			#6d6d6d;
+    height: 						65px;
+    background-color: 				#00467f;
+    padding-top: 					10px;
+}
+
+
+#guidebar ul li {
+	text-align: 					center;
+    width: 							120px;
+    float: 							left;
+    list-style-type: 				none;
+    margin: 						0px;
+}
+
+#guidebar ul li a {
+	color: 							#fff;
+    font-size: 						14px;
+    line-height: 					28px;
+}
+
+#xjtuNews {
+	background-color: 				#fff;
+    height: 						240px;
+    padding-top: 					30px;
+    padding-right: 					25px;
+    padding-bottom: 				30px;
+    padding-left: 					25px;
+    margin-right: 					auto;
+    margin-left: 					auto;
+}
+
+#xjtuNews a, p {
+	    font-size: 16px;
+    color: #474747;
+    line-height: 20px;
+}
+
+#newspic {
+	    float: left;
+    width: 280px;
+    margin-right: 28px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
