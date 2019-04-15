@@ -140,3 +140,102 @@ select {
     color: #474747;
     line-height: 20px;
 }
+#news-list {
+    height: 240px;
+    margin-left: 15px;
+    width: 405px;
+    float: left;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #dedede;
+}
+#news-list-title {
+    height: 26px;
+    margin-bottom: 10px;
+}
+#news-list-title li {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#JiaoDaYaoWen {
+    font-size: 17px;
+    line-height: 26px;
+    color: #fff;
+    background-color: #00467f;
+    text-align: center;
+    font-weight: lighter;
+    font-weight: 600;
+}
+#news-list-content li {
+    background-image: url(http://www.xjtu.edu.cn/img/in_xn_28.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 10px;
+}
+#news-list-content li a {
+    font-size: 12px;
+    line-height: 26px;
+    color: #474747;
+}
+#notification {
+    float: right;
+    width: 380px;
+}
+#notification-options {
+    height: 28px;
+    background-image: url(http://www.xjtu.edu.cn/img/in_xn_20.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 13px;
+}
+#notification-options li {
+    float: left;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    margin-right: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#notification-options li.on {
+    background-color: #B02923;
+    border: 1px solid #B02923;
+}
+#notification-options li a {
+    font-size: 17px;
+    line-height: 26px;
+    color: #818181;
+    font-weight: 600;
+}
+#notification-options li.on a{
+    color: #fff;
+    font-weight: 600;
+}
+#notification-content li {
+    margin-top: 11px;
+    height: 30px;
+    overflow: hidden;
+}
+#notification-content li .time {
+    border: solid 1px #727272;
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 56px;
+    margin-right: 17px;
+    padding: 1px;
+    float: left;
+}
+#notification-content li .background {
+    background-color: #727272;
+}
+#notification-content li .background p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+}
+#notification-content li .bt1 a{
+    line-height: 30px;
+    color: #727272;
+    font-size: 12px;
+}
