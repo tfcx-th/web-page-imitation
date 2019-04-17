@@ -51,7 +51,8 @@ body {
     padding-top: 10px;
 }
 #custom-nav {
-    float: right;
+    position: absolute;
+    left: calc((100% - 1200px) / 2 + 800px);
     padding-top: 15px;
     width: 400px;
     color: #fff;
@@ -64,8 +65,6 @@ body {
 }
 #search {
     height: 20px;
-    display: inline-block;
-    margin-left: 470px;
 }
 #search-input {
     line-height: 20px;
@@ -73,14 +72,7 @@ body {
     width: 215px;
 }
 select {
-    display: inline-block;
-    height: 20px;
-    background-color: rgb(248, 248, 248);
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(166, 166, 166);
-    border-image: initial;
-    font-size: 1px;
+    font-size: 14px;
 }
 #search img {
     height: 18px;
@@ -88,6 +80,9 @@ select {
 }
 #main-nav {
     margin-top: 25px;
+    position: absolute;
+    top: 118px;
+    width: 1176px;
 }
 #main-nav li {
     float: left;
